@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.box {
+  width: 600px;
+  height: 600px;
+  margin-left: 28%;
+  border: 1px solid #cbd2e1;
+  border-radius: 5px;
+  box-shadow: 0 20px 33px #cbd2e1;
+}
+.headerStrip {
+  padding: 10px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #cbd2e1;
+  background-color: #f1f4f8;
+}
+.dataStrip {
+  padding: 10px;
+  border-bottom: 1px solid #cbd2e1;
+  padding-bottom: 20px;
+  /* margin-bottom: 20px; */
+}
+
+.button {
+  border: 0.1em solid;
+  width: 90px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: transparent;
+  color: red;
+}
+.buttonactive {
+  border: 0.1em solid;
+  width: 90px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: transparent;
+  color: green;
+}
+.availableShiftsHeader {
+  padding: 15px;
+  border-bottom: 1px solid #cbd2e1;
+}
